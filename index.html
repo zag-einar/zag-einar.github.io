@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Real Estate Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	
+	<style>
+		.bruce{
+			background: #F0FBF0;
+		}
+		a{
+			color: green;
+		}
+		.viewAll{
+			text-align: right;
+			font-size: 14px;
+			margin-top: 10px;
+		}
+		.spotName{
+			font-size: 20px;
+		}
+		.spotComp{
+			font-size: 14px;
+			maring: 0 0 0 0
+		}
+		.gramScroll{
+			overflow: auto;
+			height: 300px; 
+		}
+		.gramImage{
+			padding-bottom: 10px; 
+		}
+		#empUpdates{
+			overflow: auto;
+			height: 300px;
+		}
+		.empUpdates{
+			font-size: 14px;
+			line-height: 18px;
+			margin: 10px 0 
+		}
+		.emailKatrina{
+			padding-top: 25px;
+			font-size: 12px;
+		}
+	  </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><img class="mr-3" src="images/436905-200 copy.png" alt="Generic placeholder image"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Taylor Farms</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Our Story</a>
+              <a class="dropdown-item" href="#">Our People</a>
+				<a class="dropdown-item" href="#">Our Regions</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Careers</a>
+            </div>
+          </li>
+		  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Taylor News</a>
+              <a class="dropdown-item" href="#">Community News</a>
+				<a class="dropdown-item" href="#">Wellness News</a>
+              <a class="dropdown-item" href="#">Employee Updates</a>
+            </div>
+          </li>	
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Taylor University</a>
+              <a class="dropdown-item" href="#">Company</a>
+				<a class="dropdown-item" href="#">Intranet</a>
+              <a class="dropdown-item" href="#">Hopeful</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <nav>&nbsp;</nav>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/lettuce_now_praise_farming_men (1).png" alt="First slide" width="1920" height="500" class="d-block w-100 img-thumbnail">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-thumbnail img-fluid" src="images/field3.png" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-thumbnail" src="images/foodjumpsub-master1050-v2.png" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12 card bruce">
+			<h5 class="mt-0 mb-1">Bruce's Corner</h5>
+            <ul class="list-unstyled">
+              <li class="media">
+                <img src="images/barb.jpg" alt="Generic placeholder image" width="150" height="1111" class="mr-3 img-fluid rounded">
+                <div class="media-body">
+					<p class="mb-0">
+					 “God Bless Barbara Bush, an Amazing American.“ -Bruce </p>
+                </div>
+              </li><div class="viewAll"><a href="#">View All</a></div>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 card bg-light">
+			  <h5 class="mt-0 mb-1">Employee Spotlight</h5>
+            <ul class="list-unstyled">
+              <li class="media">
+                <img src="images/screen_shot_2016-08-23_at_10.50.56_am.png" alt="Generic placeholder image" width="200" class="mr-3 rounded img-fluid">
+                <div class="media-body ">
+				  <p class="spotName">Teresa Perez<br>Taylor Farms Retail</p>
+					
+					<div class="viewAll"><a href="#">View All</a></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 d-md-none d-lg-block card bg-light">
+			  <h5 class="mt-0 mb-1">Taylor University</h5>
+            <ul class="list-unstyled">
+              <li class="media">
+                <img class="mr-3 rounded img-fluid" src="images/TFU-logo-banner-med.jpg" alt="Generic placeholder image">
+                <div class="media-body">
+                  <p class="mb-0">Bruce Minutes, training, and other exciting videos about Taylor.</p>
+                </div>
+              </li><div class="viewAll"><a href="#">View All</a></div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="row">
+            <div class="col-sm-6 col-12">
+              <div class="card">
+                <img class="card-img-top img-fluid rounded" src="images/MCDONALDS.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">McDonald's Worldwide Convention Celebrates Company History</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-12">
+              <div class="card">
+                <img class="card-img-top img-fluid rounded" src="images/tftx-wellness.JPG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Lettuce Be Healthy Wellness Program Thrives at TFTX!</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-12">
+              <div class="card">
+                <img class="card-img-top img-fluid rounded" src="images/tftx.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Texas Partners with Brighter Bites in Community Efforts!</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-12">
+              <div class="card">
+                <img class="card-img-top img-fluid rounded" src="images/hannaford.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Taylor Farms New Jersey Strengthens Partnership with Hannaford</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="col-lg-4 col-12">
+          <div class="row mx-0">
+            <div class="col-12 card bg-light mx-auto">
+              <h3 class="text-center card-header">People Search</h3>
+              <form class="card-body">
+                <div class="form-group row">
+                  <label for="location1" class="col-form-label">Company</label>
+                  <select class="form-control" name="location" id="location1">
+                    <option value="">Taylor Fresh Foods</option>
+                    <option value="">Taylor Farms Colorado</option>
+                    <option value="">Taylor Farms California</option>
+					<option value="">Taylor Farms Florida</option>
+					<option value="">Taylor Farms Illinois</option>
+					<option value="">Taylor Farms Maryland</option>
+	                  </select>
+                </div>
+                <div class="form-group row">
+                  <label for="pricefrom" class="col-form-label">First Name</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                       </div>
+                    <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="priceto" class="col-form-label">Last Name</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                    </div>
+                    <input type="text" class="form-control"  aria-describedby="basic-addon2">
+                  </div>
+                </div>
+				<div class="form-group row">
+                  <label for="priceto" class="col-form-label">Department</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                    </div>
+                    <input type="text" class="form-control"  aria-describedby="basic-addon2">
+                  </div>
+                </div>
+				<div class="form-group row">
+                  <label for="priceto" class="col-form-label">Job Title</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                    </div>
+                    <input type="text" class="form-control"  aria-describedby="basic-addon2">
+                  </div>
+                </div>
+                <p class="text-center"><a href="#" class="btn btn-danger" role="button">Search </a></p>
+              </form>
+            </div>
+            <div class="col-12">
+              <h3 class="text-center">IT Support</h3>
+              <hr>
+              <div class="media">
+                <img src="images/cscEmail.png" alt="Generic placeholder image" width="50" class="mr-3 img-fluid">
+                <div class="media-body">
+                  <h5 class="mt-0">Non-critical Issues</h5>
+                  <a href="mailto:#">tfsupport@taylorfarms.com</a>
+                </div>
+              </div>
+              <div class="media mt-2">
+                <img src="images/cscCall.png" alt="Generic placeholder image" width="50" class="mr-3 img-fluid">
+                <div class="media-body">
+                  <h5 class="mt-0">Critical/After-Hours</h5>
+                  <abbr title="Phone">P:</abbr> +1-888-488-2956 <p>or dial Ext. 9200</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <h3>Taylor Regions</h3>
+            <hr>
+            <div class="row">
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-CALIFORNIA.png" alt="Thumbnail Image 1"> </div>
+              </div>
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-COLORADO.png" alt="Thumbnail Image 1"></div>
+              </div>
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-FLORIDA.png" alt="Thumbnail Image 1"></div>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-ILLINOIS.png" alt="Thumbnail Image 1" width="72" class="img-fluid"></div>
+              </div>
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-maryland.png" alt="Thumbnail Image 1" width="72" class="img-fluid"></div>
+              </div>
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-MEXICO.png" alt="Thumbnail Image 1" width="72" class="img-fluid"></div>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-NEW-JERSEY.png" alt="Thumbnail Image 1" width="72" class="img-fluid"></div>
+              </div>
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-PACIFIC.png" alt="Thumbnail Image 1" width="72" class="img-fluid"></div>
+              </div>
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-TENNESSEE.png" alt="Thumbnail Image 1" width="72" class="img-fluid"></div>
+              </div>
+            </div>
+            <hr>
+			<div class="row">
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-TEXAS.png" alt="Thumbnail Image 1" width="72" class="img-fluid"></div>
+              </div>
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-RETAIL.png" alt="Thumbnail Image 1" width="72" class="img-fluid"></div>
+              </div>
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-SMARTWASH-SOLUTIONS.png" alt="Thumbnail Image 1" width="72" class="img-fluid"></div>
+              </div>
+            </div>
+			<hr>
+			<div class="row">
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-LOGISTICS.png" alt="Thumbnail Image 1" width="72" class="img-fluid"></div>
+              </div>
+              <div class="col-4">
+                <div class="text-center"> <img src="images/TF-Northwest.png" alt="Thumbnail Image 1" width="72" class="img-fluid"></div>
+              </div>
+              <div class="col-4">
+                <div class="text-center"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <h3>Taylor 101</h3>
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Strategy</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Values</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Fun Facts</a>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <p class="text-center mt-2"><img src="images/3b536b.gif" alt=""></p>
+					<ul>
+					  <li>Customer Driven</li>
+					  <li>Align ourselves with leaders in each target market segment</li>
+					  <li>Consistently deliver high quality products and excellent service.</li>
+					  <li>Install systems, products and processes that help key customer partners grow and enhance their business. </li>
+						<li>Utilize size and vertical integration to be low cost / high value supplier. </li>
+						<li>Provide a work environment that attracts and retains partners who are capable, committed and empowered to make a positive impact. </li>
+					</ul>  
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <p class="text-center mt-2"><img src="images/3b536b.gif" alt=""></p>
+				  	<ul>
+					  <li>Passion </li>
+					  <li>Honesty/Integrity </li>
+					  <li>Trusting/Trustworthy </li>
+						<li>Respect </li>
+						<li>Teamwork</li>
+					</ul>  
+              </div>
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <p class="text-center mt-2"><img src="images/3b536b.gif" alt=""></p>
+				  <ul>
+					  <li>We make 1 in 3 salads consumed in the United States.</li>
+					  <li>Our products are enjoyed by 120 million Americans every week</li>
+					  <li>We are North America's largest supplier of value-added healthy fresh foods. </li>
+					  <li>We have 14 operating companies located across North America.</li>
+					</ul> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-12">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <h3>Taylor University</h3>
+				<div class="viewAll"><a href="#">View All</a></div>
+              <hr>
+              <iframe width="auto" height="300px" src="https://www.youtube.com/embed/-3RmRX8FgN8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6 col-12">
+              <h3>Employee Updates</h3>
+				<div class="viewAll"><a href="#">View All</a></div>
+              <hr>
+              <div id="empUpdates">
+            		<ul>
+					  <li class="empUpdates">Taylor Farms Mexico welcomes Alex Oikawa to their logistics and distribution team!</li>
+					  <li class="empUpdates">TFCA welcomes Joshua Vipperman to their logistics team!</li>
+					  <li class="empUpdates">Taylor Farms Pacific welcomes Emily Lipps to their culinary team their new Product Development Chef. Emily brings an extensive education and experience from roles at Whole Foods Markets and Research and Safeway!</li>
+						<li class="empUpdates">Taylor Farms Retail welcomes Amanda Gardenhire to the Walmart team as a Category Advisor!</li>
+						<li class="empUpdates">TFNW welcomes Timothy Pearson as their new HR Manager and Brandon Holguin to the Quality team!</li>
+						<li class="empUpdates">Taylor Farms Northwest welcomes Tad Carlson to the purchasing team.</li>
+						<li class="empUpdates">Taylor Farms Florida welcomes Damian Sanchez and Scott Murphy to their Procurement/Purchasing team!</li>
+						<li class="empUpdates">Taylor Farms California welcomes Katia Arteaga to the HR team!</li>
+						<li class="empUpdates">The Taylor IT group welcomes Joseph Karels to the team as the new BI Developer!</li>
+					</ul>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 mt-md-0 mt-2">
+          <h3>Taylor Gram</h3>
+			<div class="viewAll"><a href="#">View All</a></div>
+          <hr>
+			<div class="row gramScroll">
+			<div class="col-md-6 col-12">
+		    <img src="images/lo860L.PNG" alt="" class="img-fluid gramImage"/></div>
+			<div class="col-md-6 col-12 ">
+		    <img src="images/no858M.jpeg" alt="" class="img-fluid gramImage"/></div>
+			<div class="col-md-6 col-12 ">
+		    <img src="images/ro857M.jpg" alt="" class="img-fluid gramImage"/></div>
+			<div class="col-md-6 col-12 ">
+		    <img src="images/no859M.jpg" alt="" class="img-fluid gramImage"/></div>
+			<div class="col-md-6 col-12 ">
+		    <img src="images/no858M.jpeg" alt="" class="img-fluid gramImage"/></div>
+			<div class="col-md-6 col-12 ">
+		    <img src="images/lo860L.PNG" alt="" class="img-fluid gramImage"/></div>
+			<div class="col-md-6 col-12 ">
+		    <img src="images/no859M.jpg" alt="" class="img-fluid gramImage"/></div>
+			<div class="col-md-6 col-12 ">
+		    <img src="images/ro857M.jpg" alt="" class="img-fluid gramImage"/></div>
+			<div class="col-md-6 col-12 ">
+		    <img src="images/lo860L.PNG" alt="" class="img-fluid gramImage"/></div>
+			<div class="col-md-6 col-12 ">
+		    <img src="images/no858M.jpeg" alt="" class="img-fluid gramImage"/></div>
+			<div class="col-md-6 col-12 ">
+		    <img src="images/ro857M.jpg" alt="" class="img-fluid gramImage"/></div>
+			<div class="col-md-6 col-12 ">
+		    <img src="images/no859M.jpg" alt="" class="img-fluid gramImage"/></div>
+		</div>
+</div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="emailKatrina">For Lettuce Connect questions, comments or feedback please contact Katrina at <a href="mailto:kgargiulo@taylorfarms.com">kgargiulo@taylorfarms.com</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>
